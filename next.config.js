@@ -9,7 +9,7 @@ const nextConfig = {
   },
   experimental: {
     serverActions: {
-      allowedOrigins: ['localhost:3000', 'fascinating-biscochitos-5a6873.netlify.app'],
+      allowedOrigins: ['localhost:3000', 'fascinating-biscochitos-5a6873.netlify.app', 'optidemo.netlify.app'],
     },
   },
   output: 'export',
