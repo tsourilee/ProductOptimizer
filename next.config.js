@@ -14,6 +14,7 @@ const nextConfig = {
   },
   output: 'export',
   distDir: 'out',
+  trailingSlash: true,
   webpack: (config) => {
     config.resolve.alias['@'] = path.join(__dirname, 'src');
     return config;
